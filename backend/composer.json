@@ -1,0 +1,31 @@
+{
+    "name": "akc_solutions/venda_produtos",
+    "description": "Projeto desenvolvido no desafio técnico PHP.",
+    "authors": [
+        {
+            "name": "Alexandre Carvalhal",
+            "email": "alexandre@akcsolutions.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "composer/composer": "1.10.19",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+          "Classes\\": "Classes/"
+        },
+        "files": [
+            "Helpers/functions.php"
+        ]
+      },
+    "require-dev": {
+        "pestphp/pest": "^2.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
